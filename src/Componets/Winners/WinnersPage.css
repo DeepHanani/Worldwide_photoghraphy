@@ -1,0 +1,130 @@
+.Animalportraits{
+    width: 1550px;
+    /* background-color: aliceblue; */
+    margin: auto;
+    text-align: start;
+}
+
+.Animalportraits h1{
+    text-align: start;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.Animalportraits img{
+    width: 100%;
+    height: 800px;
+}
+
+.towImages{
+    display: flex;
+    width: 1200px;
+    margin:80px auto 0px auto;
+    justify-content: space-between;
+}
+
+.photoghrapharyear{
+    width: 1550px;
+    margin: 70px auto 0px auto;
+}
+
+.photoghrapharyear p,h4{
+    text-align: start;
+    
+}
+.photoghrapharyear p{
+    padding:0px 0px 10px 0px ;
+}
+
+.photoghrapharyear h4{
+    padding:0px 0px 10px 0px ;
+    color: rgb(193, 16, 16);
+}
+
+.silver h5{
+    text-align: start;
+    color: rgb(193, 16, 16);
+    padding-top: 30px;
+}
+
+.bronze h5{
+    text-align: start;
+    color: rgb(193, 16, 16);
+    padding-top: 30px;
+}
+
+hr{
+    width: 1550px;
+    margin: 50px auto 60px auto;
+    
+}
+
+.Behaviour{
+    width: 1550px;
+    margin: auto;
+}
+
+.Behaviour h1{
+    text-align: start;
+    font-weight: 400;
+}
+
+.Behaviour img{
+    height: 800px;
+    width: 1550px;
+}
+
+.hidetoshi{
+    width: 1550px;
+    margin:40px auto 0px auto;
+}
+
+.hidetoshi p,h4{
+    text-align: start;
+}
+
+.hidetoshi p{
+    padding-top: 20px;
+}
+
+.hidetoshi h4{
+    padding-top: 30px;
+    color: rgb(193, 16, 16);
+}
+.japan{
+    width: 1550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.israle{
+    width: 750px;
+   height: 600px;
+}
+
+.israle img{
+    width: 100%;
+    height: 100%;
+}
+
+.sweden{
+   width: 750px;
+   height: 600px;
+}
+
+.sweden img{
+    width: 100%;
+    height: 100%;
+}
+
+.israle h5{
+    text-align: start;
+    color: rgb(193, 16, 16);
+    padding-top: 40px;
+}
+
+.sweden h5{
+    text-align: start;
+    color: rgb(193, 16, 16);
+    padding-top: 40px;
+}

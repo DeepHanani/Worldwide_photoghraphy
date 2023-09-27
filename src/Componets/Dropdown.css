@@ -1,0 +1,96 @@
+@keyframes change{
+    from {background-color: rgb(15, 14, 14); color: white;}
+    to {background-color: white;}
+}
+
+.main{
+    background-color: rgb(11, 11, 53);
+    height: 80px;
+    /* width: 100%; */
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 5%;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+   
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.logo span{
+    color: blue;
+}
+
+.main ul{
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+}
+
+.main ul li{    
+    padding: 10px 30px;
+}
+
+.main ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: text-decoration 0.3s;
+}
+
+.main ul li a:hover{
+    color: blue;
+}
+
+.mains{
+    background-color: rgb(246, 245, 245);
+  animation-name: change;
+  animation-duration: 10s;
+}
+
+.dropdown_menu{
+    display: block;
+    position: absolute;
+    left:0;
+    top: 825px;
+    bottom: 10px;
+    background-color: rgb(232, 225, 225);
+    height: 600px;
+    width: 300px;
+    text-align: center;
+}
+
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.dropdown_menu ul li{
+    width: 250px;
+    padding: 10px;
+    
+}
+
+.dropdown_menu ul li a{
+    color: black;
+}
+
+
+@media (max-width :640px) {
+    .main{
+        flex-direction: column;
+        height: 280px;
+      
+    }
+    .main ul{
+        flex-direction: column;
+       
+    }
+}

@@ -1,0 +1,16 @@
+@media (max-width : 640) {
+    .carousel-inner{
+        width: 640px;
+        height: 500px;
+    }
+
+    .carousel-item{
+        width: 640px;
+        height: 500px;
+    }
+
+    .carousel-item img{
+        height: 500px;
+        width: 640px;
+    }
+}

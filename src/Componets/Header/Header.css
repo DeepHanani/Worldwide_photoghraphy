@@ -1,0 +1,15 @@
+.headContainer{
+    /* background-color: rgb(228, 228, 240);     */
+    width: 800px;
+    display: flex;
+    margin: 50px auto 120px auto;
+    justify-content: center;
+}
+
+.head{
+    margin: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}

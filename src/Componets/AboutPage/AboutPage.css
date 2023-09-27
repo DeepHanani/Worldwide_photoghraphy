@@ -1,0 +1,90 @@
+
+
+.provideImg{
+    width: 650px;
+    height: 400px;
+    /* background-color: brown; */
+    background: url("https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/blur-image-background/focus-object.jpg");
+    background-size: contain;
+    background-size: cover;
+    /* border-radius: 20px; */
+    /* opacity: 0.5; */
+}
+.provideImg:hover{
+    opacity: 1;
+}
+
+.mainAboutContainer{
+    /* background-color: aqua; */
+    width: 1400px;
+    margin: 82px auto 0px auto ;
+   
+}
+
+.provideContaint{
+    width: 650px;
+    height: 390px;
+    /* background-color: blue; */
+}
+
+.firstOne{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.adviceImg{
+
+    width: 650px;
+    height: 400px;
+    /* background-color: rgb(14, 3, 3); */
+    background: url("https://static.photocdn.pt/images/articles/2017_8/iStock-615288442.webp");
+    background-size: contain;
+    background-size: cover;
+    /* border-radius: 20px; */
+    /* opacity: 0.5; */
+}
+
+.adviceImg:hover{
+    opacity: 1;
+}
+
+.secondOne{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+
+.adviceContaint{
+    width: 650px;
+    height: 390px;
+}
+
+.provideContaint h2 ,.adviceContaint h2{
+    margin: 25px 0px 25px 0px; 
+    /* color: brown; */
+    /* text-decoration: underline; */
+    font-weight: 200;
+}
+
+.protect{
+    margin-top: 60px;
+ 
+    
+}
+
+
+
+a img{
+    width: 580px;
+    
+}
+
+.AboutUs{
+    color: rgb(14, 6, 45);
+    font-size: 110px;
+    font-weight:100;
+    font-family:fantasy,
+     
+}
+
